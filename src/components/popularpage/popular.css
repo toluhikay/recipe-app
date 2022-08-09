@@ -1,0 +1,10 @@
+.popular-div{
+    padding: 20px 100px;
+}
+.recipes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}

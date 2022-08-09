@@ -1,0 +1,14 @@
+.favorite{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background:none;
+    border: 1px solid #44CB02;
+    font-weight: 700;
+    color: #44CB02;
+}
+.favorite:hover{
+    background-color: #44CB02;
+    color: #fff;
+    cursor: pointer;
+}
