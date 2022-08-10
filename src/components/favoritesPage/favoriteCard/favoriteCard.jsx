@@ -14,7 +14,7 @@ function FavoriteCard() {
                 </div>
                 <div className="favorite-meal-div2">
                     <p className="favorite-meal-name-p">Burger Thief</p>
-                    <p className="favorite-meal-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam illo sapiente</p>
+                    <p>Preparation Time is</p>
                 </div>
             </div>
 

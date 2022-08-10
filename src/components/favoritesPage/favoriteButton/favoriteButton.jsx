@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react'
 import './favoriteButton.css'
 
-function Favorite() {
+function Favorite({OnClick}) {
   return (
     <Fragment>
-        <button className='favorite'>Add to Favorite</button>
+        <button className='favorite' onClick={OnClick}>Add to Favorite</button>
     </Fragment>
   )
 }

@@ -1,0 +1,17 @@
+.search-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+@media screen and (max-width:900px) {
+    .search-box{
+        padding: 20px;
+    }
+}
+@media screen and (max-width:550px) {
+    .search-box{
+        justify-content: center;
+    }
+}

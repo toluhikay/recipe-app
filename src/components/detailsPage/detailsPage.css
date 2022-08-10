@@ -1,0 +1,44 @@
+.details-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+}
+@media screen and (max-width:900px) {
+    .details-div{
+        padding: 20px;
+    }
+}
+.details-img-div{
+    width: 100%;
+    height: auto;
+    background-color: #44cb02;
+    border-radius: 40px;
+    padding: 20px 0;
+}
+.details-img-div img{
+    width: 50%;
+    border-radius: 100%;
+    height: auto;
+}
+.details-summary-p{
+    font-size: .9em;
+    text-align: justify;
+}
+.similar-recipes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.similar ul{
+    text-align: left;
+    list-style: disc;
+    color: #44cb02;
+}
+.similar ul a{
+    color: #44cb02;
+    font-weight: 700;
+}

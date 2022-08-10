@@ -1,10 +1,21 @@
 .popular-div{
     padding: 20px 100px;
 }
+@media screen and (max-width:900px) {
+    .popular-div{
+        padding: 20px;
+    }
+}
+
 .recipes{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
+}
+@media screen and (max-width:550px) {
+    .recipes{
+        justify-content: center;
+    }
 }
