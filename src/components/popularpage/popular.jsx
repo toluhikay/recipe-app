@@ -11,7 +11,7 @@ const Popular=()=> {
 
   useEffect(() => {
     getPopular();
-  }, []);
+  }, [popular]);
 
   const getPopular = async () => {
     setStore(() => localStorage.getItem("popular"));
