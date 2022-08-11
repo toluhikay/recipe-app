@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import { useState, useEffect} from 'react'
 import {useParams} from 'react-router-dom'
-import RecipeCard from '../recipeCard/recipeCard'
 import { Link } from 'react-router-dom'
 import Favorite from '../../favoritesPage/favoriteButton/favoriteButton'
 import SearchBar from './search'
